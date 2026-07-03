@@ -1,17 +1,24 @@
-# git-and-githup-setup
-install git --> https://git-scm.com/install/windows <br>
-Add Your Config into Git <br>
-Open Git Bash Into Computer <br>
-Paste Below CMD: <br>
-git config --global --unset user.name <br>
-git config -global --unset user.email <br>
-git config --global user.name "parthzanzrukiya02" <br>
-git config --global user.email "parthzanzrukiya02@gmail.com" <br>
-check your git config (paste below cmd into gitbash) <br>
-git config --list <br>
-check your email and username in given output<br>
-create your folder into computer (ex. News-website)<br>
-join your folder with github <br>
-go to Github website (login first) <br>
-create a new repo (check for new btn into dashboard - green color btn) <br>
-give a name to repo (ex. news-website) <br>
+# Git & GitHub Setup Guide
+
+A complete, step-by-step guide to configuring Git on your machine, connecting your projects to GitHub, and managing your daily development workflow.
+
+---
+
+## 1. First-Time Git Setup
+Perform these steps **once** on any new computer to install and configure your global Git settings.
+
+### Step A: Install Git
+* Download and install Git for your operating system: [Download Git for Windows](https://git-scm.com/install/windows)
+
+### Step B: Configure Your Identity
+Open **Git Bash** (or your preferred terminal) and run the following commands to clear any old configurations and set up your active GitHub account:
+
+```bash
+# Clear existing configurations (Optional)
+git config --global --unset user.name
+git config --global --unset user.email
+
+# Set your GitHub identity
+git config --global user.name "parthzanzrukiya02"
+git config --global user.name "parthzanzrukiya02@gmail.com"
+git config --global user.email "parthzanzrukiya02@gmail.com"
